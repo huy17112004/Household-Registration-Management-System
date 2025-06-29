@@ -1,0 +1,589 @@
+.log-card-style {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px 0;
+}
+
+.log-card {
+    width: 300px;
+    background: #fff3cd;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    text-align: center;
+    transition: 0.3s ease-in-out;
+    border-left: 5px solid #ffc107;
+}
+
+.log-card:hover {
+    transform: translateY(-5px);
+}
+
+.log-card h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.log-card p {
+    font-size: 14px;
+    margin: 5px 0;
+    color: #666;
+}
+
+.log-card button {
+    background-color: #ffc107;
+    color: #333;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+}
+
+.log-card button:hover {
+    background-color: #ffca28;
+}
+
+
+
+.member-card-style {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px 0;
+}
+
+.member-card {
+    width: 280px;
+    background: #f8f9fa;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    text-align: center;
+    transition: 0.3s ease-in-out;
+}
+
+.member-card:hover {
+    transform: translateY(-5px);
+}
+
+.member-card h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.member-card p {
+    font-size: 14px;
+    margin: 5px 0;
+    color: #666;
+}
+
+
+
+.household-card-style {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.household-card {
+    width: 300px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    text-align: left;
+    transition: 0.3s ease-in-out;
+}
+
+.household-card:hover {
+    transform: translateY(-5px);
+}
+
+.household-card h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.household-card p {
+    font-size: 14px;
+    margin: 5px 0;
+    color: #666;
+}
+
+.household-card .view-members {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    padding: 8px 15px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+.household-card .view-members:hover {
+    background: #0056b3;
+}
+
+
+
+
+.police-user-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .police-user-card {
+        background: #fff;
+        border-radius: 12px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        width: 320px;
+        padding: 15px;
+        text-align: center;
+        border: 1px solid #ddd;
+        transition: 0.3s;
+    }
+
+    .police-user-card:hover {
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    }
+
+    .police-user-card h3 {
+        font-size: 18px;
+        margin-bottom: 8px;
+        color: #333;
+    }
+
+    .police-user-card p {
+        font-size: 14px;
+        color: #666;
+        margin: 5px 0;
+    }
+
+    .police-user-card .status {
+        font-weight: bold;
+        color: #007bff;
+    }
+
+    .police-user-card .btn-action {
+        display: inline-block;
+        padding: 8px 12px;
+        margin: 5px;
+        font-size: 14px;
+        color: white;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+    .police-user-card .btn-approve {
+        background-color: #28a745;
+    }
+
+    .police-user-card .btn-approve:hover {
+        background-color: #218838;
+    }
+
+    .police-user-card .btn-reject {
+        background-color: #dc3545;
+    }
+
+    .police-user-card .btn-reject:hover {
+        background-color: #c82333;
+    }
+
+
+
+
+.area-leader-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .area-leader-card {
+        background: #fff;
+        border-radius: 12px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        width: 300px;
+        padding: 15px;
+        text-align: center;
+        border: 1px solid #ddd;
+        transition: 0.3s;
+    }
+
+    .area-leader-card:hover {
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    }
+
+    .area-leader-card h3 {
+        font-size: 18px;
+        margin-bottom: 8px;
+        color: #333;
+    }
+
+    .area-leader-card p {
+        font-size: 14px;
+        color: #666;
+        margin: 5px 0;
+    }
+
+    .area-leader-card .status {
+        font-weight: bold;
+        color: #007bff;
+    }
+
+    .area-leader-card .btn-view {
+        display: inline-block;
+        padding: 8px 12px;
+        margin-top: 10px;
+        font-size: 14px;
+        color: white;
+        background-color: #007bff;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+    .area-leader-card .btn-view:hover {
+        background-color: #0056b3;
+    }
+    
+    
+    
+    
+    
+    
+    
+
+.password-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+}
+
+.password-form-container {
+    width: 100%;
+    max-width: 380px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Tiêu đề */
+.heading_container h2 {
+    text-align: center;
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+/* Nhóm nhập liệu */
+.password-form .form-group {
+    margin-bottom: 15px;
+}
+
+.password-form label {
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: #444;
+}
+
+.password-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+/* Nút submit */
+.password-form .form-submit {
+    text-align: center;
+}
+
+.password-form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+.password-form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Hiển thị lỗi */
+.error-message {
+    color: red;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+/* Định dạng button */
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+.personal-info-container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    margin: 20px auto;
+}
+
+.info-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.info-table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.info-table td:first-child {
+    font-weight: bold;
+    color: #333;
+    width: 30%;
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.button-container input {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 5px;
+    font-size: 14px;
+}
+
+.button-container input:hover {
+    background-color: #0056b3;
+}
+
+.back-button {
+    margin-top: 15px;
+    margin-left: 15px
+}
+
+
+.registration-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.registration-card {
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    width: 300px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.registration-card:hover {
+    transform: scale(1.05);
+}
+
+.registration-card h3 {
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.registration-card p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #555;
+}
+
+.registration-card button {
+    background-color: #007bff;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.registration-card button:hover {
+    background-color: #0056b3;
+}
+
+.child-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.child-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    border: 1px solid #ddd;
+    transition: transform 0.3s ease-in-out;
+}
+
+.child-card:hover {
+    transform: translateY(-5px);
+}
+
+.child-card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.child-card p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.child-card button {
+    background-color: #28a745;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.child-card button:hover {
+    background-color: #218838;
+}
+
+.noti-card {
+    width: 100%;
+    max-width: 500px;
+    text-align: left;
+    padding: 15px;
+    border-left: 5px solid;
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* Card ĐÃ ĐỌC */
+.noti-card.read {
+    background-color: #f8f9fa;  /* Xám nhạt */
+    border-color: #6c757d;  /* Viền xám */
+}
+
+/* Card CHƯA ĐỌC */
+.noti-card.unread {
+    background-color: #d1ecf1;  /* Xanh nhạt */
+    border-color: #17a2b8;  /* Viền xanh */
+    font-weight: bold;
+}
+
+/* Chỉnh padding và margin */
+.noti-card p {
+    font-size: 14px;
+    line-height: 1.5;
+    word-wrap: break-word;
+}
+
+/* Nút quay lại */
+.btn-back {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn-back:hover {
+    background-color: #c82333;
+}
+.button-container {
+    display: flex;
+    justify-content: center;  /* Căn giữa theo chiều ngang */
+    gap: 15px;  /* Tạo khoảng cách giữa hai nút */
+    margin-top: 20px;
+}
+
+.button-container input[type="button"] {
+    background-color: #007bff;  /* Màu xanh dương */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.button-container input[type="button"]:hover {
+    background-color: #0056b3;  /* Màu xanh đậm hơn khi hover */
+}

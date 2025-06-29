@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="alowelib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/alowelib/smtp-1.6.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/alowelib/sqljdbc42.jar!/" />
+      <root url="jar://$PROJECT_DIR$/alowelib/jstl-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/alowelib/jakarta.activation-api-2.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/alowelib/json-20250107.jar!/" />
+      <root url="jar://$PROJECT_DIR$/alowelib/jakarta.servlet-api-5.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/alowelib/jakarta.servlet.jsp.jstl-2.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/alowelib/javax.activation-1.2.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/alowelib/jakarta.activation-2.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/alowelib/jakarta.servlet.jsp.jstl-api-2.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/alowelib/javax.mail-api-1.6.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/alowelib/javax.mail-1.6.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/alowelib/jaxb-api-2.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
